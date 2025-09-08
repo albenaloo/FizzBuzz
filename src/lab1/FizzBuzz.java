@@ -14,7 +14,7 @@ class FizzBuzz {
         int x = 1;
         boolean divBy3 = false;
         boolean divBy5 = false;
-        boolean thing = x < 100;
+        boolean thing = x < n;
 
         while (thing) { // Using a while function instead of a for loop
 
