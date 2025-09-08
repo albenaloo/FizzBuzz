@@ -10,7 +10,7 @@ class FizzBuzz {
         doFizzBuzz(6);
     }
 
-    private static void doFizzBuzz() {
+    public static void doFizzBuzz(int n) {
         int x = 1;
         boolean divBy3 = false;
         boolean divBy5 = false;
