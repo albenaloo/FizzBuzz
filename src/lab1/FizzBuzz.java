@@ -36,7 +36,7 @@ class FizzBuzz {
 
             }
             x += 1;
-            thing = x < 100;
+            thing = x < n;
             divBy5 = x % 5 == 0;
             divBy3 = x % 3 == 0;
         }
