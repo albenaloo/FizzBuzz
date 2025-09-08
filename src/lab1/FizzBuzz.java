@@ -7,7 +7,7 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        doFizzBuzz();
+        doFizzBuzz(6);
     }
 
     private static void doFizzBuzz() {
