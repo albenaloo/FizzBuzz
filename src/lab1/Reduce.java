@@ -6,7 +6,7 @@ public class Reduce {
 
     }
 
-    public static void reduce(int n) {
+    public static int reduce(int n) {
         int count = 1;
         while (n != 0) {
             if (n % 2 == 0) {
@@ -19,6 +19,6 @@ public class Reduce {
                 count += 1;
             }
         }
-        System.out.println(count);
+        return count;
     }
 }
